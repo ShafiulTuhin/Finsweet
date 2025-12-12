@@ -1,0 +1,281 @@
+:root {
+  --primary_bg_color: #1c1e53;
+  --secondary_bg_color: #f4f6fc;
+  /* --tertiary_bg_color: #F4F6FC; */
+  --white_bg_color: #ffffff;
+  --button_bg_color: #fcd980;
+
+  --light_text_color: #ffffff;
+  --dark_text_color: #282938;
+  --button_text_color: #1b1c2b;
+  --icon_color: #2405f2;
+
+  --summary_text_color: #bbbbcb;
+  --summary_font_size: 16px;
+  --summary_font_weight: 400;
+  --summary_line_hight: 28px;
+
+  --heading_font_size: 54px;
+  --heading_font_weight: 600;
+  --headimg_line_hight: 76px;
+
+  --title_font_size: 48px;
+  --title_font_weight: 600;
+  --title_line_hight: 64px;
+
+  --sub_title_font_size: 32px;
+  --sub_title_font_weight: 500;
+  --sub_title_line_hight: 48px;
+}
+/* ====Extra large devices===== */
+@media (max-width: 1399.98px) {
+}
+/* ====large devices===== */
+@media (max-width: 1199.98px) {
+  /* =====Banner css===== */
+  #bannerPart {
+    padding: 50px 0;
+  }
+  /* =====feature css===== */
+  #featurePart {
+    padding: 50px 0;
+  }
+  .featureHeading {
+    font-size: var(--sub_title_font_size);
+    font-weight: var(--heading_font_weight);
+    line-height: var(--sub_title_line_hight);
+  }
+  /* =====Faq css===== */
+  #faqPart {
+    padding: 50px 0;
+  }
+  .faqQues {
+    margin-right: 30px;
+  }
+  .accordianTitle {
+    font-size: 23px;
+  }
+  .large--modify {
+    font-size: 22px;
+  }
+  /* =====Inquiry css===== */
+}
+/* ====Medium devices===== */
+@media (max-width: 991.98px) {
+  .navbar-toggler {
+    color: none;
+    background-color: #b2b2b2;
+    border: 2px solid var(--light_text_color);
+  }
+  .navItems {
+    margin-top: 15px;
+    border: 1px solid var(--light_text_color);
+    width: 100%;
+    text-align: center;
+    border-radius: 10px;
+    padding: 5px 0;
+    transition: all linear 0.4s;
+  }
+  .navItems:hover {
+    background-color: blue;
+  }
+  .navBtn {
+    font-size: 15px;
+    width: 40%;
+    margin-top: 10px;
+  }
+  /* =====Work part===== */
+  #workPart {
+    padding: 50px 0;
+  }
+  .headingPara {
+    width: 100%;
+  }
+  /* =====Faq css===== */
+  #faqPart {
+    padding: 50px 0;
+  }
+  .faqQues {
+    margin-right: 30px;
+  }
+  .accordianTitle {
+    font-size: 25px;
+  }
+  /* =====Inquiry css===== */
+  #inquiryPart {
+    padding-top: 30px;
+  }
+
+  .leftText {
+    padding: 80px 30px;
+  }
+  .leftTextHeading {
+    font-size: var(--title_font_size);
+    line-height: var(--sub_title_line_hight);
+  }
+  .inquiryRight {
+    padding: 80px 30px;
+  }
+}
+/* ====Small devices===== */
+@media (max-width: 767.98px) {
+  .navBtn {
+    width: 40%;
+    margin-top: 10px;
+  }
+  .bannerImg-large {
+    width: 100%;
+  }
+
+  /* =====Work part===== */
+  #workPart {
+    padding: 50px 0;
+  }
+  .workLeft--modify {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .projectHeading {
+    font-size: var(--sub_title_font_size);
+  }
+  .headingPara {
+    width: 100%;
+  }
+  /* =====feature css===== */
+  #featurePart {
+    padding: 50px 0;
+  }
+  .featureHeading {
+    font-size: var(--sub_title_font_size);
+    font-weight: var(--heading_font_weight);
+    line-height: var(--sub_title_line_hight);
+  }
+  /* =====Faq css===== */
+  #faqPart {
+    padding: 50px 0;
+  }
+  .faqQues {
+    margin-right: 30px;
+  }
+  .accordianTitle {
+    font-size: var(--summary_font_size);
+  }
+  /* =====Inquiry css===== */
+  #inquiryPart {
+    padding-top: 30px;
+  }
+  .leftText {
+    padding: 50px 30px;
+  }
+  .leftTextHeading {
+    font-size: var(--sub_title_font_size);
+    line-height: var(--sub_title_line_hight);
+  }
+  .inquiryRight {
+    padding: 50px 30px;
+  }
+}
+
+/* =====Extra small devices===== */
+@media (max-width: 575.98px) {
+  .xmDevice {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  .bannerHeading {
+    font-size: var(--sub_title_font_size);
+    line-height: var(--sub_title_line_hight);
+  }
+  .bannerPara {
+    margin: 20px 0;
+    font-size: 13px;
+  }
+
+  .navBtn {
+    width: 40%;
+    margin-top: 10px;
+  }
+  /* =====Work part===== */
+  #workPart {
+    padding: 50px 0;
+    background-color: #f5f7fc;
+  }
+  .headingPara {
+    width: 100%;
+  }
+  /* =====Project css===== */
+  #projectPart {
+    padding: 50px 0;
+  }
+  .projectHeading {
+    font-size: 20px;
+    font-weight: var(--title_font_weight);
+  }
+  .viewProject--modify {
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+  }
+  .overlay--modify {
+    display: none;
+  }
+  /* ======Feature css===== */
+  #featurePart {
+    padding: 50px 0;
+  }
+  .featureHeading {
+    font-size: var(--sub_title_font_size);
+    font-weight: var(--heading_font_weight);
+    line-height: var(--sub_title_line_hight);
+  }
+  /* =====Faq css===== */
+  #faqPart {
+    padding: 50px 0;
+  }
+  .faqQues {
+    margin-right: 30px;
+  }
+  .accordianTitle {
+    font-size: var(--summary_font_size);
+  }
+  /* =====Inquiry css===== */
+  #inquiryPart {
+    padding-top: 30px;
+    padding-bottom: 70px;
+  }
+  .leftText {
+    padding: 50px 30px;
+  }
+  .leftTextHeading {
+    font-size: var(--sub_title_font_size);
+    line-height: var(--sub_title_line_hight);
+  }
+  .inquiryRight {
+    padding: 50px 30px;
+  }
+  /* =====Blog css===== */
+  #blogPart {
+    padding-bottom: 50px;
+  }
+  .blogHeading {
+    margin-bottom: 20px;
+  }
+  /* =====Footer css===== */
+
+  .footerLogo {
+    padding: 50px 0;
+  }
+  .footerSocial {
+    padding: 50px 0;
+  }
+  .displayrightNav {
+    display: block;
+  }
+  .navFooterItems a {
+    font-size: 13px;
+  }
+}
